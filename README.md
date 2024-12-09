@@ -21,7 +21,7 @@ This project uses multiple gas sensors with an Arduino UNO and an Ethernet Shiel
 
 ---
 
-#**Description**
+## 📑**Description**
 
 This project reads data from multiple MQ-series gas sensors and a DHT-11 temperature/humidity sensor. The collected data is sent to ThingSpeak for online monitoring and visualization.
 
@@ -138,12 +138,6 @@ Log in to ThingSpeak to visualize real-time graphs and analyze trends based on y
 
 ---
 
-## 📝 **License**
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-👨‍💻 **Author:** *Your Name*  
-📧 **Contact:** *your.email@example.com*  
+👨‍💻 **Author:** *Avrrodeep Banerjee*  
+📧 **Contact:** *2328158@kiit.ac.in*  
 
