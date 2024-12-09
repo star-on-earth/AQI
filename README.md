@@ -65,7 +65,12 @@ Install these libraries using the Arduino Library Manager (`Sketch -> Include Li
 
 | **Sensor** | **Arduino Pin**   |
 |------------|------------------|
-| MQ Sensors | Analog Pin `A0`  |
+| MQ 5 | Analog Pin `A4`  |
+| MQ 135 | Analog Pin `A0`  |
+| MQ 4 | Analog Pin `A5`  |
+| MQ 6 | Analog Pin `A3`  |
+| MQ 8 | Analog Pin `A2`  |
+| MQ 9 | Analog Pin `A1`  |
 | DHT-11     | Digital Pin `D2` |
 | Ethernet Shield | Follows standard SPI pins on the UNO |
 
