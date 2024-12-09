@@ -57,11 +57,11 @@ void setup() {
 
 void loop() {
   // Read gas concentrations
-  h2PPM = MQGetGasPercentage(MQRead(MQ_PIN) / Ro, GAS_H2);
-  lpgPPM = MQGetGasPercentage(MQRead(MQ_PIN) / Ro, GAS_LPG);
-  coPPM = MQGetGasPercentage(MQRead(MQ_PIN) / Ro, GAS_CO);
-  smokePPM = MQGetGasPercentage(MQRead(MQ_PIN) / Ro, GAS_SMOKE);
-  propanePPM = MQGetGasPercentage(MQRead(MQ_PIN) / Ro, GAS_PROPANE); // Read Propane
+  h2PPM = MQGetGasPercentage(MQRead(2) / Ro, GAS_H2);
+  lpgPPM = MQGetGasPercentage(MQRead(1) / Ro, GAS_LPG);
+  coPPM = MQGetGasPercentage(MQRead(4) / Ro, GAS_CO);
+  smokePPM = MQGetGasPercentage(MQRead(0) / Ro, GAS_SMOKE);
+  propanePPM = MQGetGasPercentage(MQRead(3) / Ro, GAS_PROPANE); // Read Propane
 
   // Print to Serial Monitor
   Serial.print("H2: "); Serial.print(h2PPM); Serial.print(" ppm");
