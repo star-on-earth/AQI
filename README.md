@@ -17,7 +17,6 @@ This project uses multiple gas sensors with an Arduino UNO and an Ethernet Shiel
 6. [Code Explanation](#code-explanation)  
 7. [ThingSpeak Dashboard](#thingspeak-dashboard)  
 8. [Usage](#usage)  
-9. [License](#license)  
 
 ---
 
